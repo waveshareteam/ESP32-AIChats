@@ -101,7 +101,7 @@ This repository is licensed under the Apache License. See the `LICENSE` file for
 
 - Waveshare for their excellent hardware platforms and software support
 - The Espressif Team for their continuous support.
-- [虾哥的xiaozhi-ESP32](https://github.com/78/xiaozhi-esp32) Low code amount of open source projects, convenient for beginners to test experience
+- [虾哥的xiaozhi-ESP32](https://github.com/78/xiaozhi-esp32) Low code amount of open source projects Support
 - [openai-realtime-embedded-sdk](https://github.com/openai/openai-realtime-embedded-sdk) SDK Low-level Support
 - Open-source contributors who make these projects possible.
 
