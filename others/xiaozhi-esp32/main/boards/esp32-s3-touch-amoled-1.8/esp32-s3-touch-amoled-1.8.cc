@@ -126,7 +126,7 @@ private:
         buscfg.data3_io_num = GPIO_NUM_7;
         buscfg.max_transfer_sz = DISPLAY_WIDTH * DISPLAY_HEIGHT * sizeof(uint16_t);
         buscfg.flags = SPICOMMON_BUSFLAG_QUAD;
-        ESP_ERROR_CHECK(spi_bus_initialize(SPI3_HOST, &buscfg, SPI_DMA_CH_AUTO));
+        ESP_ERROR_CHECK(spi_bus_initialize(SPI2_HOST, &buscfg, SPI_DMA_CH_AUTO));
     }
 
     void InitializeButtons() {
@@ -159,13 +159,17 @@ private:
         io_config.trans_queue_depth = 10;
         io_config.lcd_cmd_bits = 32;
         io_config.lcd_param_bits = 8;
-        ESP_ERROR_CHECK(esp_lcd_new_panel_io_spi(SPI3_HOST, &io_config, &panel_io));
+        io_config.flags.quad_mode = true;
+        ESP_ERROR_CHECK(esp_lcd_new_panel_io_spi(SPI2_HOST, &io_config, &panel_io));
 
         // 初始化液晶屏驱动芯片
         ESP_LOGD(TAG, "Install LCD driver");
         const sh8601_vendor_config_t vendor_config = {
             .init_cmds = &vendor_specific_init[0],
             .init_cmds_size = sizeof(vendor_specific_init) / sizeof(sh8601_lcd_init_cmd_t),
+            .flags ={
+                .use_qspi_interface = 1,
+            }
         };
 
         esp_lcd_panel_dev_config_t panel_config = {};
