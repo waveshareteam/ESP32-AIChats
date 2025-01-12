@@ -149,28 +149,27 @@ private:
         esp_lcd_panel_io_handle_t panel_io = nullptr;
         esp_lcd_panel_handle_t panel = nullptr;
 
-        // 液晶屏控制IO初始化
+        // 初始化 QSPI 总线配置
         ESP_LOGD(TAG, "Install panel IO");
-        esp_lcd_panel_io_spi_config_t io_config = {};
-        io_config.cs_gpio_num = GPIO_NUM_12;
-        io_config.dc_gpio_num = GPIO_NUM_NC;
-        io_config.spi_mode = 0;
-        io_config.pclk_hz = 40 * 1000 * 1000;
-        io_config.trans_queue_depth = 10;
-        io_config.lcd_cmd_bits = 32;
-        io_config.lcd_param_bits = 8;
+        esp_lcd_panel_io_spi_config_t io_config = SH8601_PANEL_IO_QSPI_CONFIG(
+            EXAMPLE_PIN_NUM_LCD_CS,
+            nullptr,
+            nullptr
+        );
         ESP_ERROR_CHECK(esp_lcd_new_panel_io_spi(SPI3_HOST, &io_config, &panel_io));
 
         // 初始化液晶屏驱动芯片
         ESP_LOGD(TAG, "Install LCD driver");
         const sh8601_vendor_config_t vendor_config = {
-            .init_cmds = &vendor_specific_init[0],
-            .init_cmds_size = sizeof(vendor_specific_init) / sizeof(sh8601_lcd_init_cmd_t),
+            .init_cmds = lcd_init_cmds,
+            .init_cmds_size = sizeof(lcd_init_cmds) / sizeof(sh8601_lcd_init_cmd_t),
+            .flags = {
+                .use_qspi_interface = 1,
+            },
         };
 
         esp_lcd_panel_dev_config_t panel_config = {};
-        panel_config.reset_gpio_num = GPIO_NUM_NC;
-        panel_config.flags.reset_active_high = 1,
+        panel_config.reset_gpio_num = EXAMPLE_PIN_NUM_LCD_RST;
         panel_config.rgb_ele_order = LCD_RGB_ELEMENT_ORDER_RGB;
         panel_config.bits_per_pixel = 16;
         panel_config.vendor_config = (void *)&vendor_config;
