@@ -10,6 +10,7 @@
 | [ESP32-C6-Touch-AMOLED-2.16](https://www.waveshare.net/shop/ESP32-C6-Touch-AMOLED-2.16.htm)<br><img src="https://www.waveshare.net/photo/development-board/ESP32-C6-Touch-AMOLED-2.16/ESP32-C6-Touch-AMOLED-2.16-1.jpg" width="400"> | ✅ |
 | [ESP32-C6-Touch-LCD-1.54](https://www.waveshare.net/shop/ESP32-C6-Touch-LCD-1.54.htm)<br><img src="https://www.waveshare.net/photo/development-board/ESP32-C6-LCD-1.54/ESP32-C6-Touch-LCD-1.54-2.jpg" width="400"> | ✅ |
 | [ESP32-C6-LCD-0.85](https://www.waveshare.net/shop/ESP32-C6-LCD-0.85.htm)<br><img src="https://www.waveshare.net/photo/development-board/ESP32-C6-LCD-0.85/ESP32-C6-LCD-0.85-1.jpg" width="400"> | ✅ |
+| [ESP32-C6-ePaper-1.54](https://www.waveshare.net/shop/ESP32-C6-ePaper-1.54.htm)<br><img src="https://www.waveshare.net/photo/LCD/ESP32-C6-ePaper-1.54/ESP32-C6-ePaper-1.54-1.jpg" width="400"> | ✅ |
 | [ESP32-P4-NANO-10.1-A](https://www.waveshare.net/shop/ESP32-P4-NANO-KIT-D.htm)<br><img src="https://www.waveshare.net/photo/development-board/ESP32-P4-NANO/ESP32-P4-NANO-KIT-D.jpg" width="400"> | ✅ |
 | [ESP32-P4-WIFI6-Touch-LCD-3.4C](https://www.waveshare.net/shop/ESP32-P4-WIFI6-Touch-LCD-3.4C.htm)<br><img src="https://www.waveshare.net/photo/development-board/ESP32-P4-WIFI6-Touch-LCD-XC/ESP32-P4-WIFI6-Touch-LCD-3.4C-1.jpg" width="400"> | ✅ |
 | [ESP32-P4-WIFI6-Touch-LCD-4B](https://www.waveshare.net/shop/ESP32-P4-WIFI6-Touch-LCD-4B.htm)<br><img src="https://www.waveshare.net/photo/development-board/ESP32-P4-86-Panel-ETH-2RO/ESP32-P4-WIFI6-Touch-LCD-4B-1.jpg" width="400"> | ✅ |
