@@ -24,6 +24,7 @@
 | [ESP32-P4-WIFI6-Touch-LCD-5](https://www.waveshare.net/shop/ESP32-P4-WIFI6-Touch-LCD-5.htm)<br><img src="https://www.waveshare.net/photo/development-board/ESP32-P4-WIFI6-Touch-LCD-5/ESP32-P4-WIFI6-Touch-LCD-5-1.jpg" width="400"> | ✅ |
 | [ESP32-S3-Touch-AMOLED-1.32](https://www.waveshare.net/shop/ESP32-S3-Touch-AMOLED-1.32.htm)<br><img src="https://www.waveshare.net/photo/development-board/ESP32-S3-Touch-AMOLED-1.32/ESP32-S3-Touch-AMOLED-1.32-1.jpg" width="400"> | ✅ |
 | [ESP32-S3-ePaper-1.54](https://www.waveshare.net/shop/ESP32-S3-ePaper-1.54.htm)<br><img src="https://www.waveshare.net/photo/LCD/ESP32-S3-ePaper-1.54/ESP32-S3-ePaper-1.54-1.jpg?v=1" width="400"> | ✅ |
+| [ESP32-S3-ePaper-3.97](https://www.waveshare.net/shop/ESP32-S3-ePaper-3.97.htm)<br><img src="https://www.waveshare.net/photo/LCD/ESP32-S3-ePaper-3.97/ESP32-S3-ePaper-3.97-1.jpg" width="400"> | ✅ |
 | [ESP32-S3-Touch-AMOLED-1.75](https://www.waveshare.net/shop/ESP32-S3-Touch-AMOLED-1.75.htm)<br><img src="https://www.waveshare.net/photo/development-board/ESP32-S3-Touch-AMOLED-1.75/ESP32-S3-Touch-AMOLED-1.75-1.jpg" width="400"> | ✅ |
 | [ESP32-S3-Touch-AMOLED-1.75C](https://www.waveshare.net/shop/ESP32-S3-Touch-AMOLED-1.75C.htm)<br><img src="https://www.waveshare.net/photo/development-board/ESP32-S3-Touch-AMOLED-1.75C/ESP32-S3-Touch-AMOLED-1.75C-1.jpg" width="400"> | ✅ |
 | [ESP32-S3-Touch-LCD-1.83](https://www.waveshare.net/shop/ESP32-S3-Touch-LCD-1.83.htm)<br><img src="https://www.waveshare.net/photo/development-board/ESP32-S3-Touch-LCD-1.83/ESP32-S3-Touch-LCD-1.83-1.jpg" width="400"> | ✅ |
@@ -52,6 +53,7 @@
 | [ESP32-S3-RGB-Matrix](https://www.waveshare.net/shop/ESP32-S3-RGB-Matrix.htm)<br><img src="https://www.waveshare.net/photo/development-board/ESP32-S3-RGB-Matrix/ESP32-S3-RGB-Matrix-1.jpg" width="400"> | ✅ |
 | [ESP32-S3-Touch-LCD-7C-BOX](https://www.waveshare.net/shop/ESP32-S3-Touch-LCD-7C-BOX.htm)<br><img src="https://www.waveshare.net/photo/development-board/ESP32-S3-Touch-LCD-7C-BOX/ESP32-S3-Touch-LCD-7C-BOX-1.jpg" width="400"> | ✅ |
 | [ESP32-Touch-LCD-3.5](https://www.waveshare.net/shop/ESP32-Touch-LCD-3.5.htm)<br><img src="https://www.waveshare.net/photo/development-board/ESP32-Touch-LCD-3.5/ESP32-Touch-LCD-3.5-1.jpg" width="400"> | ✅ |
+| [ESP32-C5-Touch-LCD-1.69](https://www.waveshare.net/shop/ESP32-C5-Touch-LCD-1.69.htm)<br><img src="https://www.waveshare.net/photo/development-board/ESP32-C5-Touch-LCD-1.69/ESP32-C5-Touch-LCD-1.69-1.jpg" width="400"> | ✅ |
 
 
 # 📚 Xiaozhi AI application reference tutorial
